@@ -1,0 +1,15 @@
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/bin/Debug/net7.0/PackageMeasurementConverterAPI
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/bin/Debug/net7.0/PackageMeasurementConverterAPI.deps.json
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/bin/Debug/net7.0/PackageMeasurementConverterAPI.runtimeconfig.json
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/bin/Debug/net7.0/PackageMeasurementConverterAPI.dll
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/bin/Debug/net7.0/PackageMeasurementConverterAPI.pdb
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.csproj.AssemblyReference.cache
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.AssemblyInfoInputs.cache
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.AssemblyInfo.cs
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.csproj.CoreCompileInputs.cache
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.dll
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/refint/PackageMeasurementConverterAPI.dll
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.pdb
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/PackageMeasurementConverterAPI.genruntimeconfig.cache
+/Users/mohammedaladhary/Projects/PackageMeasurementConverterAPI/obj/Debug/net7.0/ref/PackageMeasurementConverterAPI.dll

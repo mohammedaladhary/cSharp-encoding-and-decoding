@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageMeasurementConverterAPI", "PackageMeasurementConverterAPI.csproj", "{8EB6141C-58B1-4DAD-A865-10AAD1E90277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EB6141C-58B1-4DAD-A865-10AAD1E90277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB6141C-58B1-4DAD-A865-10AAD1E90277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB6141C-58B1-4DAD-A865-10AAD1E90277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB6141C-58B1-4DAD-A865-10AAD1E90277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C1F0990-ACFA-48B9-93B6-F4B6A9D7910F}
+	EndGlobalSection
+EndGlobal
