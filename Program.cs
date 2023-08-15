@@ -65,20 +65,27 @@ namespace PackageMeasurementConverterAPI
 
         static void Main(string[] args)
         {
-
-            Console.Write("Enter a sequence of characters: ");
-            string sequence = Console.ReadLine();
-
-            if (!sequence.All(c => char.IsLetter(c) || c == '_'))
+            while (true)
             {
-                Console.WriteLine("Invalid input. Please enter only alphabetical characters with underscores/without underscores.");
-                return;
-            }
-            else
-            {
-                List<int> decodedValues = Package(sequence);
-                //Console.WriteLine($"\n(firstLetter: {sequence[0]}, no.of letters to combine: {decodedValues.Count})");
-                Console.WriteLine("\nThe Result is: " + "[" + string.Join(", ", decodedValues) + "]");
+                Console.Write("\nEnter a sequence of characters (or type 'exit' to quit): ");
+                string sequence = Console.ReadLine().ToLower();
+
+                if (sequence == "exit")
+                {
+                    Console.WriteLine("Exiting the program.");
+                    break;
+                }
+
+                if (!sequence.All(c => char.IsLetter(c) || c == '_'))
+                {
+                    Console.WriteLine("Invalid input. Please enter only alphabetical characters with underscores/without underscores.");
+                    continue; // Go back to the beginning of the loop
+                }
+                else
+                {
+                    List<int> decodedValues = Package(sequence);
+                    Console.WriteLine("\nThe Result is: " + "[" + string.Join(", ", decodedValues) + "]");
+                }
             }
         }
     }
