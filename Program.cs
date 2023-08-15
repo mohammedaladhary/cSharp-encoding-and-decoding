@@ -32,36 +32,33 @@ namespace PackageMeasurementConverterAPI
                     return null;
                 }
 
-                if (currentIndex >= sequence.Length)
+                if (currentIndex + count > sequence.Length)
                 {
                     Console.WriteLine("Invalid input sequence format.");
                     return null;
                 }
 
-                if (count == 26) // Counter is 'z'
-                {
-                    int nextValue = ConvertToNumber(sequence[currentIndex]);
-                    int packageSum = count + nextValue;
-                    results.Add(packageSum);
+                string package;
 
-                    currentIndex++;
-                }
-                else
+                try
                 {
-                    string package = sequence.Substring(currentIndex, count);
-                    currentIndex += count;
-
-                    int packageSum = 0;
-                    foreach (char character in package)
-                    {
-                        packageSum += ConvertToNumber(character);
-                    }
-                    results.Add(packageSum);
+                    package = sequence.Substring(currentIndex, count);
                 }
+                catch (ArgumentOutOfRangeException)
+                {
+                    Console.WriteLine("Exception: Invalid package length.");
+                    return null;
+                }
+
+                currentIndex += count;
+
+                int packageSum = ConvertToNumber(package[0]) * package.Length;
+                results.Add(packageSum);
             }
 
             return results;
         }
+
 
         static void Main(string[] args)
         {

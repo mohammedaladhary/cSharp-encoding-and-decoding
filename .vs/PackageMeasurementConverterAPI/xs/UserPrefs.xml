@@ -4,15 +4,13 @@
   <MonoDevelop.Ide.ItemProperties.PackageMeasurementConverterAPI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="81" Column="1" />
+      <File FileName="Program.cs" Line="51" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PackageMeasurementConverterAPI">
-            <Node name="PackageMeasurementConverterAPI">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="PackageMeasurementConverterAPI" selected="True" />
           </Node>
         </State>
       </Pad>
